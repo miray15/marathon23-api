@@ -4,6 +4,6 @@ Rails.application.routes.draw do
 
 get "/karabuluts" => "karabuluts#index"
 
-get '/about_mes', to: 'about_mes#index'
+
 
 end
