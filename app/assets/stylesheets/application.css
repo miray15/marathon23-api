@@ -15,6 +15,7 @@ body {
 
 p {
   color: white;
+  text-align: center;
 }
 
 @keyframes sparkles {
@@ -34,7 +35,7 @@ p {
   text-underline-position: under;
   animation: wavy 2s linear infinite;
   text-align: center;
-  color: blue;
+  color: yellow;
 }
 
 
