@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
-recourses :karabulut
+# resources :karabuluts
+
+get "/karabuluts" => "karabuluts#index"
 
 end

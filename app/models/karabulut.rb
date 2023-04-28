@@ -1,0 +1,2 @@
+class Karabulut < ApplicationRecord
+end
