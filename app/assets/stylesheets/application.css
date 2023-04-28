@@ -99,17 +99,18 @@ h1 {
 }
 
 .container {
-  width: 960px;
+  width: 30;
   /* set the width of the container */
-  margin: 0 auto;
+  margin: 0;
   /* center the container on the page */
 }
 
 .nav {
   list-style: none;
   margin: 0;
-  padding: 0;
-  width: 100%;
+  padding: 0%;
+  margin-left: 50%;
+  width: 18%;
   /* set the width of the navigation bar */
   background-color: #333;
 }
@@ -120,11 +121,11 @@ h1 {
 
 .nav li a {
   display: block;
-  padding: 10px 20px;
+  padding: 5px 10px;
   color: #fff;
   text-decoration: none;
 }
 
 .nav li a:hover {
-  background-color: #555;
+  background-color: #999;
 }
