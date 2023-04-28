@@ -34,18 +34,9 @@ p {
   text-underline-position: under;
   animation: wavy 2s linear infinite;
   text-align: center;
-  font-size: 60px;
   color: blue;
-
 }
 
-p {
-  text-align: center;
-}
-
-h3 {
-  text-align: center;
-}
 
 @keyframes wavy {
   0% {
