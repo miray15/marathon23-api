@@ -60,3 +60,37 @@ p {
     transform: skewX(0deg);
   }
 }
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -468px 0;
+  }
+
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+/* Style the image */
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 6s ease-in-out forwards;
+  padding-left: 33%;
+  padding-right: 50%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
